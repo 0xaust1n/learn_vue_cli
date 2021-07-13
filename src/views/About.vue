@@ -1,5 +1,19 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <v-app>
+    <AppBar title="About" />
+    <v-main>
+      <p>This is About!!</p>
+    </v-main>
+  </v-app>
 </template>
+
+<script>
+import AppBar from '../components/AppBar.vue'
+
+export default {
+  name: 'About',
+  components: {
+    AppBar
+  }
+}
+</script>

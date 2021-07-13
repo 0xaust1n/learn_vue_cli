@@ -1,15 +1,19 @@
 <template>
-  <hello-world />
+  <v-app>
+    <AppBar title="Home" />
+    <v-main>
+      <p>FUCK</p>
+    </v-main>
+  </v-app>
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
+import AppBar from '../components/AppBar.vue'
 
-  export default {
-    name: 'Home',
-
-    components: {
-      HelloWorld,
-    },
+export default {
+  name: 'Home',
+  components: {
+    AppBar
   }
+}
 </script>
