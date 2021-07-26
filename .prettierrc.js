@@ -1,9 +1,11 @@
 'use strict'
 
 module.exports = {
-  tabWidth: 2,
-  useTabs: false,
-  semi: false,
-  singleQuote: true,
+  arrowParens: 'always',
+  endOfLine: 'lf',
   printWidth: 120,
+  singleQuote: true,
+  semi: false,
+  tabWidth: 2,
+  useTabs: false
 }
